@@ -3,7 +3,7 @@ from time import sleep
 from dht import DHT22 
 
 PIN_SENSOR = 3 # pin sensor relié au DHT22
-QUALIBRATION = True #True: T = Tdht #False: T = r*Tdht + T0
+QUALIBRATION = True #True: Qualibration is On, False Qualibration if Off.
 T_DHT1 = 21.7 # mesure 1 temp DHT22
 T_R1   = 20.2 # mesure 1 temp thermometre de référence
 T_DHT2 = 14.5 # mesure 2 temp DHT22
